@@ -1,0 +1,931 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Web platform to analyze, discuss, cluster, classify COVID-19 scientific literature.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/cro/supplementary/supp1/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/cro/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166873339-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-166873339-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+
+  
+  <link rel="alternate" href="/cro/supplementary/supp1/index.xml" type="application/rss+xml" title="Original Article">
+  
+
+  <link rel="manifest" href="/cro/index.webmanifest">
+  <link rel="icon" type="image/png" href="/cro/images/icon_hu7e12209333f22d741aca7d462871821f_9877_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/cro/images/icon_hu7e12209333f22d741aca7d462871821f_9877_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/cro/supplementary/supp1/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Original Article">
+  <meta property="og:url" content="/cro/supplementary/supp1/">
+  <meta property="og:title" content="Supplementary data 1 | Original Article">
+  <meta property="og:description" content="Web platform to analyze, discuss, cluster, classify COVID-19 scientific literature."><meta property="og:image" content="/cro/images/icon_hu7e12209333f22d741aca7d462871821f_9877_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/cro/images/icon_hu7e12209333f22d741aca7d462871821f_9877_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2018-09-09T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Supplementary data 1 | Original Article</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/cro/">Original Article</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/cro/">Original Article</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/cro/supplementary/supp1/"><span>Supplementary Data</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/cro/affiliation/"><span>Affiliation</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/cro/#people"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+  
+    
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+  
+  <div class="docs-toc-item active">
+    <a class="docs-toc-link" href="/cro/supplementary/supp1/">Supplementary 1</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/cro/supplementary/supp2/">Supplementary 2</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/cro/supplementary/supp3/">Supplementary 3</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/cro/supplementary/supp4/">Supplementary 4</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/cro/supplementary/supp1/methods1/">Methods</a>
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>Supplementary data 1</h1>
+
+          <div class="article-style">
+            
+<link href="/cro/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/cro/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
+<script src="/cro/rmarkdown-libs/kePrint/kePrint.js"></script>
+<link href="/cro/rmarkdown-libs/lightable/lightable.css" rel="stylesheet" />
+<script src="/cro/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/cro/rmarkdown-libs/plotly-binding/plotly.js"></script>
+<script src="/cro/rmarkdown-libs/typedarray/typedarray.min.js"></script>
+<script src="/cro/rmarkdown-libs/jquery/jquery.min.js"></script>
+<link href="/cro/rmarkdown-libs/crosstalk/css/crosstalk.css" rel="stylesheet" />
+<script src="/cro/rmarkdown-libs/crosstalk/js/crosstalk.min.js"></script>
+<link href="/cro/rmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="/cro/rmarkdown-libs/plotly-main/plotly-latest.min.js"></script>
+
+
+<p align="left" style="font-size:16px">
+Supplementary data 1 information: <br>
+- Descriptive information about exomic analysis of the 49 patients with mesotheliome.
+</p>
+<hr />
+<div id="supplementary-1a" class="section level4">
+<h4>Supplementary 1a:</h4>
+<p align="justify" style="font-size:14px">
+The average number of variants per sample in the NoSTox group was 173,812 with 35,097 (21.34% of the total) being specific exon variants (ExonVars). For the STox group, the average number of mutations per sample was 176,339 with 35,132 (19.92%) ExonVars. Subsequently, ExonVars were categorized in two groups: the first group included the so-called Functional Variants (FunctVar), comprising frameshift insertion/deletion, start loss and stop gain/loss variants. The second group comprised the Impact Variants (ImpactVar), which are the variants predicted as ‘damaging’ by at least one of the following softwares: SIFT, Polyphen2, LRT, Mutationtaster, Mutationassessor, FATHMM, Provean, Metasvm, Metalr and M_cap or CADD equals or higher than 15 (Table 1a).
+<br>
+For the NoSTox group, on average, we found 326 FunctVar and 4,024 ImpactVar, whereas, for the STox group, we identified 328 and 3,996 FunctVar and ImpactVar, respectively.
+</p>
+<p align="justify" style="font-size:14px">
+Table 1a: Distribution of variants from Exome of STox (Severe toxicity) and NoSTox (no or tolerable toxicity) groups of patients.
+</p>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+All
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+ExonVar
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+FuncVar
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+ImpactVar
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+Rare
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+NoTox
+</td>
+<td style="text-align:center;">
+173812
+</td>
+<td style="text-align:center;">
+35097
+</td>
+<td style="text-align:center;">
+326
+</td>
+<td style="text-align:center;">
+4024
+</td>
+<td style="text-align:center;">
+5682
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+STox
+</td>
+<td style="text-align:center;">
+176339
+</td>
+<td style="text-align:center;">
+35132
+</td>
+<td style="text-align:center;">
+328
+</td>
+<td style="text-align:center;">
+3996
+</td>
+<td style="text-align:center;">
+5740
+</td>
+</tr>
+</tbody>
+</table>
+<p align="justify" style="font-size:12px">
+FunctVar: Functional variant; <br>
+ImpactVar: Variants with a prediction impact higher than 1 or CADD &gt;=15.
+</p>
+<hr />
+</div>
+<div id="supplementary-1b-and-1c" class="section level4">
+<h4>Supplementary 1b and 1c:</h4>
+<p align="justify" style="font-size:14px">
+As expected, the majority of variants were located on Exonic region, followed by UTR3, UTR5 and ncRNA in both STox (Severe toxicity) NoSTox (no or tolerable toxicity) groups of patients (Figure 1a).
+</p>
+<p align="justify" style="font-size:14px">
+Figure 1a: Distribution of variant location (%) from Exome Report of both groups. STox (Severe toxicity) and NoSTox (no or tolerable toxicity).
+</p>
+<div id="htmlwidget-1" style="width:100%;height:400px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"visdat":{"9de36a1f825d":["function () ","plotlyVisDat"]},"cur_data":"9de36a1f825d","attrs":{"9de36a1f825d":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(38, 24, 74, 0.8)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"exonic","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"},"9de36a1f825d.1":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(71, 58, 131, 0.8)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"exonic.splicing","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"9de36a1f825d.2":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(122, 120, 168, 0.8)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"ncRNA_exonic","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"9de36a1f825d.3":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(164, 163, 204, 0.83)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"ncRNA_exonic.splicing","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"9de36a1f825d.4":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(190, 192, 213, 0.85)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"ncRNA_splicing","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"9de36a1f825d.5":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(210, 212, 240, 0.9)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"splicing","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"9de36a1f825d.6":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(228, 225, 250, 0.93)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"UTR3","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"9de36a1f825d.7":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(243, 242, 257, 0.95)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"UTR5","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"9de36a1f825d.8":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(249, 245, 255, 1)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"UTR5.UTR3","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true}},"layout":{"margin":{"b":80,"l":120,"t":140,"r":10},"xaxis":{"domain":[0.15,1],"automargin":true,"title":"% of variants","showgrid":false,"showline":false,"showticklabels":true,"zeroline":false},"yaxis":{"domain":[0,1],"automargin":true,"title":"Groups","showgrid":false,"showline":false,"showticklabels":false,"zeroline":false,"type":"category","categoryorder":"array","categoryarray":["NoSTox","STox"]},"barmode":"stack","paper_bgcolor":"rgb(248, 248, 255)","plot_bgcolor":"rgb(248, 248, 255)","showlegend":true,"annotations":[{"text":"NoSTox","xref":"paper","yref":"y","x":0.14,"y":"NoSTox","xanchor":"right","font":{"family":"Arial","size":12,"color":"rgb(67, 67, 67)"},"showarrow":false,"align":"right"},{"text":"STox","xref":"paper","yref":"y","x":0.14,"y":"STox","xanchor":"right","font":{"family":"Arial","size":12,"color":"rgb(67, 67, 67)"},"showarrow":false,"align":"right"},{"text":"NoSTox","xref":"paper","yref":"y","x":0.14,"y":"NoSTox","xanchor":"right","font":{"family":"Arial","size":12,"color":"rgb(67, 67, 67)"},"showarrow":false,"align":"right"},{"text":"67.88 %","xref":"x","yref":"y","x":33.94,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"67.96 %","xref":"x","yref":"y","x":33.98,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"67.88 %","xref":"x","yref":"y","x":33.94,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.07 %","xref":"x","yref":"y","x":67.915,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.07 %","xref":"x","yref":"y","x":67.995,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.07 %","xref":"x","yref":"y","x":67.915,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"7.02 %","xref":"x","yref":"y","x":71.46,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"6.97 %","xref":"x","yref":"y","x":71.515,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"7.02 %","xref":"x","yref":"y","x":71.46,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.01 %","xref":"x","yref":"y","x":74.975,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.01 %","xref":"x","yref":"y","x":75.005,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.01 %","xref":"x","yref":"y","x":74.975,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.05 %","xref":"x","yref":"y","x":75.005,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.05 %","xref":"x","yref":"y","x":75.035,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.05 %","xref":"x","yref":"y","x":75.005,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.29 %","xref":"x","yref":"y","x":75.175,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.29 %","xref":"x","yref":"y","x":75.205,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.29 %","xref":"x","yref":"y","x":75.175,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"16.18 %","xref":"x","yref":"y","x":83.41,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"16.25 %","xref":"x","yref":"y","x":83.475,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"16.18 %","xref":"x","yref":"y","x":83.41,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"8.47 %","xref":"x","yref":"y","x":95.735,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"8.37 %","xref":"x","yref":"y","x":95.785,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"8.47 %","xref":"x","yref":"y","x":95.735,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.03 %","xref":"x","yref":"y","x":99.985,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.03 %","xref":"x","yref":"y","x":99.985,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.03 %","xref":"x","yref":"y","x":99.985,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"Distribution of Variant Location (%)","xref":"x","yref":"paper","x":50,"y":1.15,"font":{"family":"Arial","size":20,"color":"rgb(67, 67, 67)"},"showarrow":false},{"text":"Distribution of Variant Location (%)","xref":"x","yref":"paper","x":50,"y":1.15,"font":{"family":"Arial","size":20,"color":"rgb(67, 67, 67)"},"showarrow":false},{"text":"Distribution of Variant Location (%)","xref":"x","yref":"paper","x":50,"y":1.15,"font":{"family":"Arial","size":20,"color":"rgb(67, 67, 67)"},"showarrow":false}],"hovermode":"closest"},"source":"A","config":{"showSendToCloud":false},"data":[{"x":[67.88,67.96],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(38, 24, 74, 0.8)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"exonic","type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.07,0.07],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(71, 58, 131, 0.8)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"exonic.splicing","type":"bar","error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[7.02,6.97],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(122, 120, 168, 0.8)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"ncRNA_exonic","type":"bar","error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.01,0.01],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(164, 163, 204, 0.83)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"ncRNA_exonic.splicing","type":"bar","error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.05,0.05],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(190, 192, 213, 0.85)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"ncRNA_splicing","type":"bar","error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.29,0.29],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(210, 212, 240, 0.9)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"splicing","type":"bar","error_y":{"color":"rgba(140,86,75,1)"},"error_x":{"color":"rgba(140,86,75,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[16.18,16.25],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(228, 225, 250, 0.93)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"UTR3","type":"bar","error_y":{"color":"rgba(227,119,194,1)"},"error_x":{"color":"rgba(227,119,194,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[8.47,8.37],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(243, 242, 257, 0.95)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"UTR5","type":"bar","error_y":{"color":"rgba(127,127,127,1)"},"error_x":{"color":"rgba(127,127,127,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.03,0.03],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(249, 245, 255, 1)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"UTR5.UTR3","type":"bar","error_y":{"color":"rgba(188,189,34,1)"},"error_x":{"color":"rgba(188,189,34,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<br>
+<p align="justify" style="font-size:14px">
+Exploiting Exonic Variants (ExonVars) functionality, around 46% were annotated as Nonsynonymous variant (nsVar) and 49% were synonymous (sVar) .
+</p>
+<p align="justify" style="font-size:14px">
+Figure 1b: Distribution of variant function on groups STox (Severe toxicity) and NoSTox (no or tolerable toxicity).
+</p>
+<div id="htmlwidget-2" style="width:100%;height:400px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2">{"x":{"visdat":{"9de35cccdbab":["function () ","plotlyVisDat"]},"cur_data":"9de35cccdbab","attrs":{"9de35cccdbab":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(38, 24, 74, 0.8)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"frameshift.deletion","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"},"9de35cccdbab.1":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(62, 40, 110, 0.7)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"frameshift.insertion","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"9de35cccdbab.2":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(65, 46, 120, 0.73)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"nonframeshift.deletion","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"9de35cccdbab.3":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(71, 58, 131, 0.75)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"nonframeshift.insertion","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"9de35cccdbab.4":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(122, 120, 168, 0.8)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"nonsynonymous.SNV","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"9de35cccdbab.5":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(164, 163, 204, 0.83)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"splicing","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"9de35cccdbab.6":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(190, 192, 213, 0.85)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"startloss","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"9de35cccdbab.7":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(210, 212, 240, 0.93)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"stopgain","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"9de35cccdbab.8":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(228, 225, 250, 0.95)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"stoploss","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"9de35cccdbab.9":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(235, 242, 250, 0.1)","line":{"color":"gray","width":1}},"name":"synonymous.SNV","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true}},"layout":{"margin":{"b":80,"l":120,"t":140,"r":10},"xaxis":{"domain":[0.15,1],"automargin":true,"title":"% of variants","showgrid":false,"showline":false,"showticklabels":true,"zeroline":false},"yaxis":{"domain":[0,1],"automargin":true,"title":"Groups","showgrid":false,"showline":false,"showticklabels":false,"zeroline":false,"type":"category","categoryorder":"array","categoryarray":["NoSTox","STox"]},"barmode":"stack","paper_bgcolor":"rgb(248, 248, 255)","plot_bgcolor":"rgb(248, 248, 255)","showlegend":true,"annotations":[{"text":"NoSTox","xref":"paper","yref":"y","x":0.14,"y":"NoSTox","xanchor":"right","font":{"family":"Arial","size":12,"color":"rgb(67, 67, 67)"},"showarrow":false,"align":"right"},{"text":"STox","xref":"paper","yref":"y","x":0.14,"y":"STox","xanchor":"right","font":{"family":"Arial","size":12,"color":"rgb(67, 67, 67)"},"showarrow":false,"align":"right"},{"text":"NoSTox","xref":"paper","yref":"y","x":0.14,"y":"NoSTox","xanchor":"right","font":{"family":"Arial","size":12,"color":"rgb(67, 67, 67)"},"showarrow":false,"align":"right"},{"text":"0.4 %","xref":"x","yref":"y","x":0.2,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.41 %","xref":"x","yref":"y","x":0.205,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.4 %","xref":"x","yref":"y","x":0.2,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.32 %","xref":"x","yref":"y","x":0.56,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.31 %","xref":"x","yref":"y","x":0.565,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.32 %","xref":"x","yref":"y","x":0.56,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.9 %","xref":"x","yref":"y","x":1.17,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.9 %","xref":"x","yref":"y","x":1.17,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.9 %","xref":"x","yref":"y","x":1.17,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.78 %","xref":"x","yref":"y","x":2.01,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.77 %","xref":"x","yref":"y","x":2.005,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.78 %","xref":"x","yref":"y","x":2.01,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"46.79 %","xref":"x","yref":"y","x":25.795,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"46.85 %","xref":"x","yref":"y","x":25.815,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"46.79 %","xref":"x","yref":"y","x":25.795,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.43 %","xref":"x","yref":"y","x":49.405,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.42 %","xref":"x","yref":"y","x":49.45,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.43 %","xref":"x","yref":"y","x":49.405,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.12 %","xref":"x","yref":"y","x":49.68,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.13 %","xref":"x","yref":"y","x":49.725,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.12 %","xref":"x","yref":"y","x":49.68,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.46 %","xref":"x","yref":"y","x":49.97,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.46 %","xref":"x","yref":"y","x":50.02,"y":"STox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.46 %","xref":"x","yref":"y","x":49.97,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"rgb(248, 248, 255)"},"showarrow":false},{"text":"0.07 %","xref":"x","yref":"y","x":50.235,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"gray"},"showarrow":false},{"text":"0.07 %","xref":"x","yref":"y","x":50.285,"y":"STox","font":{"family":"Arial","size":12,"color":"gray"},"showarrow":false},{"text":"0.07 %","xref":"x","yref":"y","x":50.235,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"gray"},"showarrow":false},{"text":"49.73 %","xref":"x","yref":"y","x":75.135,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"gray"},"showarrow":false},{"text":"49.67 %","xref":"x","yref":"y","x":75.155,"y":"STox","font":{"family":"Arial","size":12,"color":"gray"},"showarrow":false},{"text":"49.73 %","xref":"x","yref":"y","x":75.135,"y":"NoSTox","font":{"family":"Arial","size":12,"color":"gray"},"showarrow":false},{"text":"Distribution of Variant Function (%)","xref":"x","yref":"paper","x":50,"y":1.15,"font":{"family":"Arial","size":20,"color":"rgb(67, 67, 67)"},"showarrow":false},{"text":"Distribution of Variant Function (%)","xref":"x","yref":"paper","x":50,"y":1.15,"font":{"family":"Arial","size":20,"color":"rgb(67, 67, 67)"},"showarrow":false},{"text":"Distribution of Variant Function (%)","xref":"x","yref":"paper","x":50,"y":1.15,"font":{"family":"Arial","size":20,"color":"rgb(67, 67, 67)"},"showarrow":false}],"hovermode":"closest"},"source":"A","config":{"showSendToCloud":false},"data":[{"x":[0.4,0.41],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(38, 24, 74, 0.8)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"frameshift.deletion","type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.32,0.31],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(62, 40, 110, 0.7)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"frameshift.insertion","type":"bar","error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.9,0.9],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(65, 46, 120, 0.73)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"nonframeshift.deletion","type":"bar","error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.78,0.77],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(71, 58, 131, 0.75)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"nonframeshift.insertion","type":"bar","error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[46.79,46.85],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(122, 120, 168, 0.8)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"nonsynonymous.SNV","type":"bar","error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.43,0.42],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(164, 163, 204, 0.83)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"splicing","type":"bar","error_y":{"color":"rgba(140,86,75,1)"},"error_x":{"color":"rgba(140,86,75,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.12,0.13],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(190, 192, 213, 0.85)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"startloss","type":"bar","error_y":{"color":"rgba(227,119,194,1)"},"error_x":{"color":"rgba(227,119,194,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.46,0.46],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(210, 212, 240, 0.93)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"stopgain","type":"bar","error_y":{"color":"rgba(127,127,127,1)"},"error_x":{"color":"rgba(127,127,127,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.07,0.07],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(228, 225, 250, 0.95)","line":{"color":"rgb(248, 248, 249)","width":1}},"name":"stoploss","type":"bar","error_y":{"color":"rgba(188,189,34,1)"},"error_x":{"color":"rgba(188,189,34,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[49.73,49.67],"y":["NoSTox","STox"],"orientation":"h","marker":{"color":"rgba(235, 242, 250, 0.1)","line":{"color":"gray","width":1}},"name":"synonymous.SNV","type":"bar","error_y":{"color":"rgba(23,190,207,1)"},"error_x":{"color":"rgba(23,190,207,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<hr />
+</div>
+<div id="supplementary-1e" class="section level4">
+<h4>Supplementary 1e:</h4>
+<p align="justify" style="font-size:14px">
+Then, we considered the genes in which variants were present; in the NoSTox group, the average number of genes bearing variants was 17,983 with 12468 (69.72%) presenting at least one ExonVar; in the STox group variants were detected in 18,021 genes, with 12,466 (69.17%) genes carrying at least one ExonVar. Two-hundred sixty-five genes had at least one Functional variant, in the NoSTox group, and 266 in the STox group. The number of genes with at least one Impact variant was 2,803 and 2,796 for the NoSTox and STox groups, respectively. The number of exclusive genes carrying functional or impact variants in the STox group were 17 and 188, respectively
+</p>
+<p align="justify" style="font-size:14px">
+Table 1b: Distribution of genes carrying variants of STox (Severe toxicity) and NoSTox (no or tolerable toxicity) groups of patients.
+</p>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+All
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+ExonVar
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+FuncVar
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+ImpactVar
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+Rare
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+NoTox
+</td>
+<td style="text-align:center;">
+17983
+</td>
+<td style="text-align:center;">
+12468
+</td>
+<td style="text-align:center;">
+265
+</td>
+<td style="text-align:center;">
+2803
+</td>
+<td style="text-align:center;">
+3363
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+STox
+</td>
+<td style="text-align:center;">
+18021
+</td>
+<td style="text-align:center;">
+12466
+</td>
+<td style="text-align:center;">
+266
+</td>
+<td style="text-align:center;">
+2796
+</td>
+<td style="text-align:center;">
+3378
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+          </div>
+
+          
+
+
+
+          
+        </div>
+
+        <div class="body-footer">
+          
+          
+
+          
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/cro/privacy/">Privacy Policy</a>
+    
+    
+        &middot; 
+      <a href="/cro/terms/">Terms</a>
+    
+    
+  </p>
+  
+
+  <p class="powered-by">
+    BioHub - UFPE &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/cro/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://procovid19.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/cro/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
